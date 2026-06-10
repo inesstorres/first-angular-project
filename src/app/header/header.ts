@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  standalone: true, //In Angular 19+, this will be true by default so it can be ommited
+  standalone: false, //In Angular 19+, this will be true by default so it can be ommited
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
